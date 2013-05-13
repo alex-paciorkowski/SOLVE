@@ -23,4 +23,4 @@ LINE: while ($_=<$F>){
         ++ $printme if (($line[9] =~ m{0/1}) && ($line[9] =~ m{:99:}));#and again       
         print join(qq/\t/, @line) if $printme;
 }
-print STDERR "Done.\n";
+print STDERR "Step 1 done.\n";
